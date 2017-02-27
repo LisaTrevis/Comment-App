@@ -1,0 +1,78 @@
+* {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+	background-color: #BACFFF;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 45px;
+}
+
+#username,
+#comment,
+#btn {
+	display: block;
+	margin: 10px auto;
+	font-size: 20px;
+}
+
+#username,
+#comment {
+	width: 25%;
+}
+
+#comment {
+	height: 75px;
+	width: 700px;
+}
+
+#commentList {
+	display: block;
+	margin: 0 auto;
+	padding-left: 0;
+	width: 75%;
+}
+
+li {
+	list-style-type: none;
+	background-color: #fff;
+}
+
+button {
+	background-color: #511FFF;
+	height: 40px;
+	border-radius: 10px;
+}
+
+h2 {
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: #F7B6E5;
+	color: #000;
+}
+
+p {
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: #A0FFD9;
+	font-size: 40px;
+}
+
+.hide {
+	display: none;
+}
+
+.list-item {
+	background-color: #BACFFF;
+	margin-top: 30px;
+}
+
+
+
+
+
+
