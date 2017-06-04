@@ -2,24 +2,32 @@
 <html>
 	<head>
 		
-		<title></title>
-		
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Comment App">
+  		<meta name="keywords" content="comment, clean, responsive, one-page, creative">
+		<title>Commenting App</title>
 		<link rel="shortcut icon" href="world.png">
 		<link rel="stylesheet" href="css/main.css">
-
 		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 
 	</head>
 	<body>
 
-		<div class="all">	
+		<div class="all">
+			<!-- this is the header -->
 			<h1>Leave a comment</h1>
+			<!-- this is the form to enter the info -->
 			<form id="commentForm">
+				<!-- this is the input box for the username -->
 				<input id="username" placeholder="Enter your name here">
+				<!-- this is the input box for the comment -->
 				<textarea id="comment" placeholder="Enter your comment here"></textarea>
+				<!-- this button adds the username & comment to a blank ul -->
 				<button id="btn" type="button" onclick="addComment()">Submit Comment</button>
 			</form>
 
+			<!-- this is the blank ul to which usernames & comments are added -->
 			<ul id="commentList">
 			</ul>
 		</div>
