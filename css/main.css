@@ -6,6 +6,7 @@ body {
 	background-color: #BACFFF;
 }
 
+/*main div syling*/
 .all {
 	margin: 0 auto;
 	border: 1px solid black;
@@ -19,6 +20,7 @@ h1 {
 	font-size: 45px;
 }
 
+/*form elements styling*/
 #username,
 #comment,
 #btn {
@@ -37,6 +39,7 @@ h1 {
 	width: 700px;
 }
 
+/*created ul styling*/
 #commentList {
 	display: block;
 	margin: 0 auto;
