@@ -34,13 +34,11 @@ function addComment() {
 	// set id=deletebtn attribute to deleteButton button element
 	deleteButton.setAttribute("id", "deletebtn")
 	// add function addClass to onclick event 
-	deleteButton.onclick = function() {addClass();}
+	deleteButton.onclick = function() {removeComment();}
 
-	// function that adds class "hide" to deleteButton button element, newUserName h2 element, and newComment p element with display: none styling
-	function addClass() {
-		deleteButton.className = "hide"
-		newUserName.className = "hide"
-		newComment.className = "hide"
+	// function that removes list item including deleteButton button element, newUserName h2 element, and newComment p element
+	function removeComment() {
+		document.getElementById("commentList").removeChild(newListItem)
 	}
 
 	// append newUserName h2 element to newListItem li element
