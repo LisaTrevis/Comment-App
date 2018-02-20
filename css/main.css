@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #BACFFF;
+	background-color: #E7FFE2;
 }
 
 /*main div syling*/
@@ -11,7 +11,8 @@ body {
 	margin: 0 auto;
 	border: 1px solid black;
 	border-radius: 10px;
-	width: 80%;
+	width: 60%;
+	background-color: #E8E8E8;
 }
 
 h1 {
@@ -53,32 +54,38 @@ li {
 }
 
 button {
-	background-color: #511FFF;
+	background-color: #BACFFF;
 	height: 40px;
 	border-radius: 10px;
 }
 
+button:hover {
+	background-color: darkgray;
+}
+
 h2 {
-	margin: 0 auto;
+	margin: 5px auto;
 	padding: 0 10px;
-	background-color: #F7B6E5;
 	color: #000;
+	border-radius: 10px 10px 0 0;
 }
 
 p {
-	margin: 0 auto;
+	margin: 5px auto;
 	padding: 0 10px;
-	background-color: #A0FFD9;
 	font-size: 40px;
 }
 
-.hide {
-	display: none;
+#deletebtn {
+	width: 80px;
 }
 
 .list-item {
-	background-color: #BACFFF;
-	margin-top: 30px;
+	background-color: #E8E8E8;
+	margin: 30px auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 80%;
 }
 
 
